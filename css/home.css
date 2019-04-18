@@ -7,6 +7,7 @@
 .banner_slider .single_item{
     height: 500px;
     outline: none;
+    margin: 0 !important;
 }
 
 .banner_slider .single_item img{
@@ -76,4 +77,88 @@
 }
 .banner_slider .single_item.slick-active img {
     transform: scale(1);
+}
+
+.page_main_heading .heading{
+    background-image: linear-gradient(to right, #1f88b5, #34c4d2);
+    height: 100px;
+    line-height: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.our_mission_section ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.our_mission_section ul li{
+    background: linear-gradient(to right, #1f88b5, #34c4d2 90%) no-repeat center;
+    background-size: 0% 0%;    
+    flex: 0 0 32%;
+    background-color: #fff;
+    padding: 30px 20px 10px;
+    font-size: 18px;
+    line-height: 1.75;
+    width: 100%;
+    box-shadow: 0 0 5px lightgrey;
+    border-radius: 10px;
+    text-align: center;
+    transition: all .3s;
+}
+.our_mission_section ul li:hover{
+    background-size: 100% 100%;
+    color: #fff;   
+}
+.our_mission_section ul li .title {
+    font-size: 18px;
+    margin: 0 0 15px;
+    font-weight: 600;
+}
+.join_risk_free_section{
+    padding-bottom: 70px;
+}
+.join_risk_free_section img{
+    width: 100%;
+    height: auto;
+}
+
+/* responsive code */
+/* @media (max-width: 375px) and (min-width: 320px){ */
+@media (max-width: 1024px){
+    .our_mission_section ul li{
+        flex: 0 0 48%;
+        margin-bottom: 25px;
+    }
+    .our_mission_section ul li:last-child{
+        margin-bottom: 0;
+    }    
+}
+
+@media (max-width: 480px){
+    .page_main_heading .heading {
+        height: 70px;
+        line-height: 70px;
+        font-size: 30px;
+    }
+    .our_mission_section{
+        padding: 40px 0;
+    }
+    join_risk_free_section{
+        padding-bottom: 40px;
+    }
+    .text_row .heading{
+        font-size: 25px;
+    }
+    .our_mission_section ul li{
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+    .our_mission_section ul li:last-child{
+        margin-bottom: 0;
+    } 
 }
