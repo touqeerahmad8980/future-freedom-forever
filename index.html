@@ -1,0 +1,151 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Future Freedom Forever</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, Zoom=false">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendors/slick-slider/slick/slick.css" />
+    <link rel="stylesheet" href="assets/vendors/slick-slider/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- header start -->
+            <!--<em class="welcome">Hello,welcome to the Gold Transmit platform!</em>-->
+            <!-- <header class="header">
+                <span class="logo">
+                    <a href="index.php"><img src="./assets/images/main-logo.png" style="width: 110px;" /></a>
+                </span>
+                <ul>
+                    <li><a href="index">Home</a></li>
+                    <li><a href="gallery">Gallery</a></li>
+                    <li><a href="contact">Contact Us</a></li>
+                    <li><a href="login-panels" class="sign">Login&nbsp;&nbsp;|</a><a href="signup" class="sign">Signup</a></li>
+                </ul>
+            </header> -->
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header clearfix">
+                    <button id="responsive_button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>                  
+                    <a href="index.php" class="navbar-brand"><img src="./assets/images/main-logo.png" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Sign Up</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- header end -->
+    
+            <!-- banner start -->
+            <div class="banner_slider">
+                <div class="single_item">
+                    <img src="./assets/images/Life-Insurance.jpg">
+                </div>
+                <div class="single_item">
+                    <img src="./assets/images/shoping.jpg">
+                </div>
+                <div class="single_item">
+                    <img src="./assets/images/mission.jpg">
+                </div>
+            </div>
+            <!-- banner end -->
+    
+            <!-- Page Content start -->
+            <div class="our_mission_section">
+    
+            </div>
+            <div class="container">
+                <div>
+                    <h1 class="heading">Our Mission</h1>
+                </div>
+                <div class="text_row">
+                    <h2 class="heading sm">1-MISSION,VISION & VALUES</h2>
+                </div>
+                <ul class="list-unstyled">
+                    <li>Our mission is to improve the quality of life for our people, customers and society.</li>
+                    <li>We will be one strong team united by our mission and values in our relentless pursuit to be
+                        regional partner of choice in financial freedom & personal care solutions.</li>
+                    <li>Secured your financial and family future.</li>
+                    <li>Unlimited earning opportunity with no investment risk.</li>
+                    <li>Personal and professional grown and development.</li>
+                    <li>Be recognized for your achievements.</li>
+                </ul>
+            </div>
+            <div class="bodyContainer">
+                <div class="productContainer">
+                    <div class="mission">
+                        <div>
+                            <h2>Join Risk Free And Enjoy Unlimited Earning Potential!</h2>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="productContainer productContainerBG">
+    
+                </div>
+    
+            </div>
+            <!-- Page Content end -->
+    
+            <!-- footer start -->
+            <footer class="customerFooter">
+                <span class="span">Welcome to FFF MARKETING PRIVATE LIMITED
+                    These terms and conditions outline the rules and regulations for the use of FFF MARKETING PRIVATE LIMITED's
+                    Website.
+                    FFF MARKETING PRIVATE LIMITED is located at:
+                    HOSPITAL ROAD, PAKPATTAN SHARIF PUNJAB - 57400, PAKISTAN</span>
+    
+                <span class="span">Copyright © 2019 F.F.F Marketing Private Limited. All rights reserved.</span>
+            </footer>
+            <!-- footer end -->
+        </div>
+        <!-- <img src="./assets/images/slider-left-arrow.png" alt="left arrow">
+        <img src="./assets/images/slider-right-arrow.png" alt="right arrow"> -->
+    </div>
+    <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/slick-slider/slick/slick.min.js"></script>
+    <script src="js/custom-script.js"></script>
+    <script type="text/javascript">
+        $('#responsive_button').click(function(){
+            $('.navbar-toggle').toggleClass('active');
+        })
+
+        $('.banner_slider').slick({
+            touchThreshold: 100,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            arrows: true,
+            dots: true,
+            draggable: true,
+            fade: true,
+            speed: 900,
+            infinite: true,
+            cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
+            prevArrow:'<img src="./assets/images/slider-right-arrow.png" class="slideArrow PrevArrow" alt="right arrow">',
+            nextArrow:'<img src="./assets/images/slider-left-arrow.png" class="slideArrow NextArrow" alt="left arrow">', 
+        });
+    </script>
+</body>
+
+</html>
