@@ -125,14 +125,18 @@ body{
 
 /* footer css */
 .customerFooter{
-	background:#f5f5f5;
+    background:#f5f5f5;
+    padding: 20px 0 15px;
 }	
-.customerFooter .span{
+.customerFooter p{
     text-align: center;
     line-height: 1.75;
     display: block;
-    padding: 20px;
     color: #a7a7a7;
+}
+
+.customerFooter p:first-child{
+    margin-bottom: 10px;
 }
 
 
