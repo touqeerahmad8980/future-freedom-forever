@@ -1,0 +1,52 @@
+.contactbox {
+	display: inline-block;
+	padding: 15px;
+	vertical-align: top;
+	margin-bottom: 10px;
+    text-align: center;
+    transition: all .3s;
+}
+.contactbox:hover{
+    box-shadow: 0 0 15px #d8d5d5;
+}
+.contact-heading {
+	font-family: 'Oswald', sans-serif;
+	text-transform: capitalize;
+	font-size: 14px;
+	margin: 10px 0px;
+	color: #000000;
+}
+.contact-content {
+	font-size: 13px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.contact-link {
+    background: #25a7c4;
+    border-radius: 20px;
+    padding: 4px;
+    color: #fff;
+    font-size: 16px;
+    width: 200px;
+    padding: 5px 15px;
+}
+.contact-contentbor {
+	border-bottom: 1px dashed #ddd;
+}
+.contactus-box {
+    display: inline-block;
+	width: 606px;
+	padding: 5px;
+	background: #fff;
+	margin-top: 10px;
+}
+.contactus-box-line {
+	display: inline-block;
+	margin: 5px;
+}
+.contactus-map {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 20px ;
+	width: 400px;
+}
